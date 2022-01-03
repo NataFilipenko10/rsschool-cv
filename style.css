@@ -1,4 +1,131 @@
-main {
-    color: red;
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 1.5;
+    color: #4d2323;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background:oldlace;
+}
+     
+ .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+.foto {
+     height: 100%;
+     width:30%;
+     display: flex;
+ }
+img {
+    margin: 0 auto;
+    border-radius: 146px;
+    border: solid 2px rgb(114, 106, 106); 
+ }
+ 
+ h1 {
+     font-style: oblique;
+    text-align: center;
+    padding: 70px;
+    font-size: 40px;
+ }
+ .wrap {
+     height:100%;
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+ }
+ .name {
+     height: 80%;
+     width: 100%;
+ }
+ .navigation {
+     height: 20%;
+     width: 100%;
+     
+ }
+ a { 
+     text-decoration: none;
+     font-style: italic;
+     color: black;
+     transition-duration: 1s;
+ }
+ .nav-item :hover {
+     color: darkviolet;
+    text-decoration: overline;
+
+ }
+ ul.nav-list {
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+ }
+ .footer {
+     width: 100%;
+     height: 100px;
+ }
+ 
+ .section-title {
+    text-align: center;
+   font-size: 29px;
+   background-color: oldlace;
+    
+ }
+.main_left {
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    background: dimgrey;
+   
     
 }
+.main_right {
+    width: 70%;
+    height: 100%;
+    padding: 5px;
+}
+.img-footer {
+    height: 100%;
+    width: 100px;
+}
+.footer-created {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    background: oldlace;
+}
+.footer {
+    background: oldlace;
+}
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_right {
+        width: 100%;
+
+    }
+    .main_left {
+        width: 100%;
+    }
